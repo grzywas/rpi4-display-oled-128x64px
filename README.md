@@ -27,5 +27,5 @@ CS				P8/CE0					Chip selection, low active
 RST				P25						Reset, low active
 
 Build instructions:
-1. cmake -B build -S src
+1. cmake -B build -S .
 2. cmake --build ./build

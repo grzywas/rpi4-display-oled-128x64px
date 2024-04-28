@@ -5,4 +5,4 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
-add_executable(rpi4-display-oled-128x64px rpi4-display-oled-128x64px.c)
+add_executable(rpi4-display-oled-128x64px ./src/rpi4-display-oled-128x64px.c)
